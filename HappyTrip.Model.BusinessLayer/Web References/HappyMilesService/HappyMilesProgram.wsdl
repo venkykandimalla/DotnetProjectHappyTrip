@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://happymilesprogram.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://happymilesprogram.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://happymilesprogram.com/">
+      <s:element name="GetHappyMilesDataForAirline">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="airlineID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHappyMilesDataForAirlineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHappyMilesDataForAirlineResult" type="tns:HappyMilesData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="HappyMilesData">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AirlineId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MinimumAmount" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ExemptedAmount" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetHappyMilesDataForAirlineSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHappyMilesDataForAirline" />
+  </wsdl:message>
+  <wsdl:message name="GetHappyMilesDataForAirlineSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHappyMilesDataForAirlineResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HappyMilesProgramSoap">
+    <wsdl:operation name="GetHappyMilesDataForAirline">
+      <wsdl:input message="tns:GetHappyMilesDataForAirlineSoapIn" />
+      <wsdl:output message="tns:GetHappyMilesDataForAirlineSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HappyMilesProgramSoap" type="tns:HappyMilesProgramSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHappyMilesDataForAirline">
+      <soap:operation soapAction="http://happymilesprogram.com/GetHappyMilesDataForAirline" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HappyMilesProgramSoap12" type="tns:HappyMilesProgramSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHappyMilesDataForAirline">
+      <soap12:operation soapAction="http://happymilesprogram.com/GetHappyMilesDataForAirline" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HappyMilesProgram">
+    <wsdl:port name="HappyMilesProgramSoap" binding="tns:HappyMilesProgramSoap">
+      <soap:address location="http://www.skillassurertd.com/AirlinesMilesProgramService/HappyMilesProgram.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HappyMilesProgramSoap12" binding="tns:HappyMilesProgramSoap12">
+      <soap12:address location="http://www.skillassurertd.com/AirlinesMilesProgramService/HappyMilesProgram.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

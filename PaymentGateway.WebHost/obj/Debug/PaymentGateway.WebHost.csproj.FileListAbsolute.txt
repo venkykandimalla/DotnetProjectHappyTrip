@@ -1,0 +1,7 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\bin\PaymentGateway.WebHost.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\bin\PaymentGateway.WebHost.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\bin\PaymentGateway.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\bin\PaymentGateway.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\obj\Debug\PaymentGateway.WebHost.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\PaymentGateway.WebHost\obj\Debug\PaymentGateway.WebHost.pdb

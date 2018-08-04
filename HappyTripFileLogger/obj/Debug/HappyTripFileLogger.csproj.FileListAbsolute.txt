@@ -1,0 +1,30 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTripFileLogger.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTripFileLogger.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.BusinessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.Entities.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.DataAccessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.PaymentService.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\PaymentGateway.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.BusinessLayer.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.Entities.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.DataAccessLayer.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.PaymentService.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\PaymentGateway.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\HappyTripFileLogger.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\HappyTripFileLogger.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTripFileLogger.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTripFileLogger.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.BusinessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.Entities.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.DataAccessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.PaymentService.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\PaymentGateway.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.BusinessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.Entities.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.DataAccessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\HappyTrip.Model.PaymentService.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\bin\Debug\PaymentGateway.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\ResolveAssemblyReference.cache
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\HappyTripFileLogger.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripFileLogger\obj\Debug\HappyTripFileLogger.pdb

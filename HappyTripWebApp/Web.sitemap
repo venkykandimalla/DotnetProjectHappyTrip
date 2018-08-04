@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+ <siteMapNode title="Schedule">
+    <siteMapNode url="~/Admin/Schedule_Flight.aspx"
+                   title="View" description="Menu1" accesskey="V" />
+      <siteMapNode url="~/Admin/Add_Schedule.aspx"
+           title="Add" description="Menu2" accesskey="A" />
+   <siteMapNode url="~/Admin/AddFlight.aspx"
+         title="Flight Add" description="Menu3" accesskey="A" />
+   <siteMapNode url="~/Admin/EditFlight.aspx"
+             title="Add" description="Menu5" accesskey="A" />
+
+ </siteMapNode>
+  
+</siteMap>

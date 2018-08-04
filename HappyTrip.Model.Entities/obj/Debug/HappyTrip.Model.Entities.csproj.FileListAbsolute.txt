@@ -1,0 +1,5 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.Model.Entities\bin\Debug\HappyTrip.Model.Entities.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.Model.Entities\bin\Debug\HappyTrip.Model.Entities.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.Model.Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.Model.Entities\obj\Debug\HappyTrip.Model.Entities.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.Model.Entities\obj\Debug\HappyTrip.Model.Entities.pdb

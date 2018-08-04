@@ -1,0 +1,5 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\AirlinesMilesProgramService\bin\AirlinesMilesProgramService.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\AirlinesMilesProgramService\bin\AirlinesMilesProgramService.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\AirlinesMilesProgramService\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\AirlinesMilesProgramService\obj\Debug\AirlinesMilesProgramService.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\AirlinesMilesProgramService\obj\Debug\AirlinesMilesProgramService.pdb

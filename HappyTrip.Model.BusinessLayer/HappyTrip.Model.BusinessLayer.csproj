@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42280AE7-9A5B-42B7-B251-73C6E2417449}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HappyTrip.Model.BusinessLayer</RootNamespace>
+    <AssemblyName>HappyTrip.Model.BusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirTravel\AirLineManager.cs" />
+    <Compile Include="AirTravel\AirlineManagerException.cs" />
+    <Compile Include="AirTravel\AirTravelManagerFactory.cs" />
+    <Compile Include="AirTravel\CityManager.cs" />
+    <Compile Include="AirTravel\CityManagerException.cs" />
+    <Compile Include="AirTravel\FlightManager.cs" />
+    <Compile Include="AirTravel\FlightManagerException.cs" />
+    <Compile Include="AirTravel\IAirLineManager.cs" />
+    <Compile Include="AirTravel\IAirTravelManager.cs" />
+    <Compile Include="AirTravel\ICityManager.cs" />
+    <Compile Include="AirTravel\IFlightManager.cs" />
+    <Compile Include="AirTravel\IRouteManager.cs" />
+    <Compile Include="AirTravel\IScheduleManager.cs" />
+    <Compile Include="AirTravel\RouteManager.cs" />
+    <Compile Include="AirTravel\RouteManagerException.cs" />
+    <Compile Include="AirTravel\ScheduleManager.cs" />
+    <Compile Include="AirTravel\ScheduleManagerException.cs" />
+    <Compile Include="Hotel\HotelManager.cs" />
+    <Compile Include="Hotel\HotelManagerException.cs" />
+    <Compile Include="Hotel\HotelSearchManager.cs" />
+    <Compile Include="Log\ILogger.cs" />
+    <Compile Include="Log\LogFactory.cs" />
+    <Compile Include="Log\LogManager.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Search\CitiesNotAvailableException.cs" />
+    <Compile Include="Search\ConnectingFlightsNotAvailableException.cs" />
+    <Compile Include="Search\DirectFlightsNotAvailableException.cs" />
+    <Compile Include="Search\FlightSeatsAvailabilityException.cs" />
+    <Compile Include="Search\FlightsNotAvailableException.cs" />
+    <Compile Include="Search\ISearchManager.cs" />
+    <Compile Include="Search\ScheduleExpiredException.cs" />
+    <Compile Include="Search\SearchManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\SearchManagerFactory.cs" />
+    <Compile Include="Transaction\BookingException.cs" />
+    <Compile Include="Transaction\BookingManager.cs" />
+    <Compile Include="Transaction\BookingManagerFactory.cs" />
+    <Compile Include="Transaction\BookingNotAvailableException.cs" />
+    <Compile Include="Transaction\CancelationException.cs" />
+    <Compile Include="Transaction\IBookingManager.cs" />
+    <Compile Include="Transaction\InvalidBookingTypeException.cs" />
+    <Compile Include="Transaction\IHappyMiles.cs" />
+    <Compile Include="Transaction\PaymentProcessException.cs" />
+    <Compile Include="Transaction\StoreBookingInDatabaseException.cs" />
+    <Compile Include="Transaction\HappyMilesManager.cs" />
+    <Compile Include="UserAccount\AccountManager.cs" />
+    <Compile Include="UserAccount\AccountManagerFactory.cs" />
+    <Compile Include="UserAccount\IAccountManager.cs" />
+    <Compile Include="Web References\HappyMilesService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HappyTrip.DataAccessLayer\HappyTrip.DataAccessLayer.csproj">
+      <Project>{14A9AAF2-DB52-4ED7-9F3B-A2C02EBC2E17}</Project>
+      <Name>HappyTrip.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HappyTrip.Model.Entities\HappyTrip.Model.Entities.csproj">
+      <Project>{29BC1011-796A-4A3D-BF71-181CAC493BA3}</Project>
+      <Name>HappyTrip.Model.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HappyTrip.Model.PaymentService\HappyTrip.Model.PaymentService.csproj">
+      <Project>{397CA798-1500-4314-82AD-39D2B2F48F68}</Project>
+      <Name>HappyTrip.Model.PaymentService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\HappyTrip.Model.PaymentService.PaymentGateway.PaymentInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\HappyMilesService\HappyMilesData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\HappyMilesService\HappyMilesProgram.wsdl" />
+    <None Include="Web References\HappyMilesService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.skillassurertd.com/AirlinesMilesProgramService/HappyMilesProgram.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\HappyMilesService\</RelPath>
+      <UpdateFromURL>http://www.skillassurertd.com/AirlinesMilesProgramService/HappyMilesProgram.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>HappyTrip_Model_BusinessLayer_HappyMilesService_HappyMilesProgram</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\HappyMilesService\HappyMilesProgram.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

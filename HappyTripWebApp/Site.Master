@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HappyTripWebApp.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <!-- Begin : Link to css files -->
+    <link rel="stylesheet" href="Styles/main.css" type="text/css" />
+    <link type="text/css" href="Styles/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+    <link type="text/css" href="Styles/nivo-slider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="Styles/themes/default.css" type="text/css" media="screen" />
+    <!-- End : Link to css files -->
+    <!-- Begin : Javascript Content -->
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/Scripts/jquery-1.7.1.min.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/Scripts/jquery-ui-1.8.16.custom.min.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("~/Scripts/jquery.nivo.slider.js") %>"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="">
+    <form id="Form1" class="search no-action-change removeSelflabels" runat="server">
+    <!-- Begin : Header of the page -->
+    <div id="Header">
+        <!-- Begin : Links in the header -->
+        <ul class="inline" id="global">
+            <%--<li><a class="forceHttps" href="mytrips.aspx" rel="nofollow">My Trips</a></li>--%>
+            <%if (Roles.GetRolesForUser(HttpContext.Current.User.Identity.Name).Contains<string>("Administrator")){%>
+                <li><a href="<%= ResolveClientUrl("~/Admin/Home.aspx") %>" rel="nofollow">Admin Home</a></li>
+            <%}else{%>
+                <li><a href="<%= ResolveClientUrl("~/Index.aspx") %>" rel="nofollow">Home</a></li>
+            <%}%>
+
+            <%if (Request.IsAuthenticated)
+            {%>
+                <li><a href="<%= ResolveClientUrl("~/Account/UpdateProfile.aspx") %>" rel="nofollow">My Account</a></li>
+                <li><asp:LoginName ID="UserLoginName" runat="server" /></li>
+                <%if (!Roles.GetRolesForUser(HttpContext.Current.User.Identity.Name).Contains<string>("Administrator")){%>
+                    <li><asp:Label ID="lblMiles" runat="server" /></li>
+                <%}%>
+            <%}
+            else
+            {%>
+                <li><a href="<%= ResolveClientUrl("~/Account/Register.aspx") %>">Register</a></li>
+            <%}%>
+
+            <li><asp:LoginStatus ID="LoginStatus" runat="server" LoginText="Sign In" LogoutText="Sign Out" /></li>
+            <%--<li><a href="feedback.aspx" rel="nofollow">Tell us what you think</a></li>--%>
+        </ul>
+        <!-- End of Links in the header -->
+        <!-- Begin : Logo in the header -->
+        <div class="LogoContainer">
+            <a class="forceHttp" href="<%= ResolveClientUrl("~/Index.aspx")%>" title="HappyTrip's home page">
+                <asp:Image ID="Image1" ImageUrl="~/Images/happytriplogo.png" AlternateText="Happytrip: India's Favourite Flights and Hotels Booking Agency"
+                    runat="server" /></a>
+        </div>
+        <!-- End : Logo in the header -->
+        <!-- Begin : Tabs in the header -->
+        <div id="Tabs" align="right">
+            <span align="right"><b>Online Users:
+                <asp:Label ID="lblUsersCount" runat="server"></asp:Label></b></span>
+            <ul id="MainTabs" class="inline">
+                <!--<li class="first"><a href="~/Index.aspx" class="Flights first forceHttp" title="Find flights from and to destinations around India">
+                    Flights</a></li>-->
+                <!--<li><a href="/hotels" class="Hotels forceHttp" title="Find hotels in destinations around the world">
+                    Hotels</a></li>
+                <li><a href="/trains" class="Rail forceHttp" title="Find Cars to destinations within India">
+                    Cars</a></li>-->
+            </ul>
+        </div>
+        <!-- End : Tabs in the header -->
+    </div>
+    <!-- End : Header of the page -->
+    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    <div class="clear">
+    </div>
+    <!-- Beginning of hidden variables -->
+    <input type="hidden" value="MainContent" id="hdnMainContentId" />
+    <!-- End of hidden variables -->
+    <!-- Beginning of Footer -->
+    <div id="Footer">
+        <div class="FooterContainer">
+            <ul class="inline">
+                <li class="first"><a class="forceHttp" rel="nofollow" title="About Us" href="<%=ResolveClientUrl("~/About.aspx")%>">About Us</a></li>
+                <li><a class="forceHttp" title="FAQs" href="<%=ResolveClientUrl("~/FAQs.aspx")%>" rel="nofollow">FAQs</a></li>
+                <li><a class="forceHttp" title="Terms of Use" href="<%=ResolveClientUrl("~/Terms.aspx")%>" rel="nofollow">Terms of Use</a></li>
+            </ul>
+            <p class="copyright">
+                © 2013 HappyTrip Private Limited</p>
+        </div>
+    </div>
+    <!-- End of Footer -->
+    </form>
+</body>
+</html>

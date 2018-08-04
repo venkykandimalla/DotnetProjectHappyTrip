@@ -1,0 +1,14 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.DataAccessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.DataAccessLayer.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.Model.Entities.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.Model.Entities.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\HappyTrip.DataAccessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\HappyTrip.DataAccessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.DataAccessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.DataAccessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.Model.Entities.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\bin\Debug\HappyTrip.Model.Entities.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\HappyTrip.DataAccessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTrip.DataAccessLayer\obj\Debug\HappyTrip.DataAccessLayer.pdb

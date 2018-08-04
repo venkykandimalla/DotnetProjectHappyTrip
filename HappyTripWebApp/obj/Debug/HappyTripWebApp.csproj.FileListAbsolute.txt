@@ -1,0 +1,30 @@
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTripWebApp.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTripWebApp.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.BusinessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.Entities.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.DataAccessLayer.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.PaymentService.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\PaymentGateway.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.BusinessLayer.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.Entities.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.DataAccessLayer.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.PaymentService.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\PaymentGateway.pdb
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\ResolveAssemblyReference.cache
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\HappyTripWebApp.dll
+D:\TRAINING\MINDTREE\PROJECT\CODE\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\HappyTripWebApp.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTripWebApp.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTripWebApp.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.BusinessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.Entities.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.DataAccessLayer.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.PaymentService.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\PaymentGateway.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.BusinessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.Entities.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.DataAccessLayer.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\HappyTrip.Model.PaymentService.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\bin\PaymentGateway.pdb
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\ResolveAssemblyReference.cache
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\HappyTripWebApp.dll
+E:\pratian\Mindtree\Iteration 3\FINAL CODE - RELEASE CLEAN CODE - JUNE 20 2013 Pratian Cloud\HappyTripWebApp\obj\Debug\HappyTripWebApp.pdb

@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HappyTrip.Model.Entities.AirTravel.Airline" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAQAAAAEAAgAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\Airline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.Flight" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAEAgAAAAABAAAQAAEAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>AirTravel\Flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.FlightClass" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\FlightClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.FlightCost" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\FlightCost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.Route" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAAAAAAAAQAAEAAAAAIAAAEAAAACAA=</HashCode>
+      <FileName>AirTravel\Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.Schedule" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIAEAAAEAAgAAQAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>AirTravel\Schedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.Schedules" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAAACAA=</HashCode>
+      <FileName>AirTravel\Schedules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.SearchInfo" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAACIAAAAAAAAAAAAKAAAEAAAAAAA=</HashCode>
+      <FileName>AirTravel\SearchInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.SearchLog" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAACAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\SearchLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.SearchResult" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.AirTravel.TravelSchedule" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAEQAAAAAACAA=</HashCode>
+      <FileName>AirTravel\TravelSchedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Common.City" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Common.State" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAEAAABAAAAAA=</HashCode>
+      <FileName>Common\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.Booking" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAIAIAIABCAAAAAAEAAAAAAAAAAAAAAABIQA=</HashCode>
+      <FileName>Transaction\Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.BookingContact" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\BookingContact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.BookingHistory" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Transaction\BookingHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.Cancelation" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Cancelation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.Card" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.FlightBooking" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEACAQAAAAAAAIAAAAAAQACAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Transaction\FlightBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.Passenger" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAQAAAEQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.Payment" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAACAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Transaction\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.Transaction.TravelBooking" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\TravelBooking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.UserAccount.Contact" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAIAAAAAAAAAAAAAAASAAAABAAAAAA=</HashCode>
+      <FileName>UserAccount\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.UserAccount.Personal" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAICAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserAccount\Personal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HappyTrip.Model.Entities.UserAccount.ProfileCommon">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserAccount\ProfileCommon.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Personal" />
+      <Property Name="Contact" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="HappyTrip.Model.Entities.AirTravel.ScheduleType" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirTravel\ScheduleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HappyTrip.Model.Entities.AirTravel.TravelClass" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>AirTravel\TravelClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HappyTrip.Model.Entities.AirTravel.TravelDirection" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>AirTravel\TravelDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HappyTrip.Model.Entities.Transaction.BookingTypes" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Transaction\BookingTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HappyTrip.Model.Entities.Transaction.CardTypes" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Transaction\CardTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HappyTrip.Model.Entities.Transaction.PaymentStatus" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAIAAAAAAAAAAAAAgAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction\PaymentStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
